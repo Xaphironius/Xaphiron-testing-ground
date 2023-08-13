@@ -1,0 +1,53 @@
+{
+    "category": "crafting",
+    "type": "GenericCrafter",
+    "size": "3",
+    "research": "surge-smelter",
+    "researchCostMultiplier": 10,
+    "requirements":
+    [
+        "copper/80",
+        "silicon/80",
+        "thorium/80",
+        "surge-alloy/50"
+    ],
+    "consumes":
+    {
+        "items":
+        {
+            "items":
+            [
+                "surge-alloy/3",
+                "thorium/4"
+            ]
+        },
+        "power": 6
+    },
+    "outputItem": "polysteel/1",
+    "craftTime": 80,
+    "itemCapacity": 20,
+    "hasItems": true,
+    "hasLiquids": false,
+    "hasPower": true,
+    "craftEffect": "smeltsmoke",
+    "drawer":
+    {
+        "type": "DrawMulti",
+        "drawers":
+        [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawGlowRegion",
+                "suffix": "-top"
+            },
+            {
+                "type": "DrawFlame",
+                "flameColor": "FFEF99FF"
+            }
+        ]
+    },
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.07
+}

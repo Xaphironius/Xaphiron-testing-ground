@@ -1,0 +1,10 @@
+{
+    "color": "A39C98FF",
+    "cost": 1.4,
+    "radioactivity": 0.20,
+    "healthScaling": 0.32,
+    "research": "surge-alloy",
+    "hiddenOnPlanets": [
+        "erekir"
+    ]
+}

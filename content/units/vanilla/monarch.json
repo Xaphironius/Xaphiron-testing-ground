@@ -1,0 +1,76 @@
+{
+    "research":
+    {
+        "parent": "reign",
+        "requirements":
+        [
+            "copper/1"
+        ]
+    },
+    "type": "mech",
+    "canDrown": false,
+    "isEnemy": true,
+    "health": 64000,
+    "armor": 35,
+    "drawShields": false,
+    "hitSize": 34,
+    "lightRadius": 200,
+    "speed": 0.3,
+    "rotateSpeed": 1,
+    "mechFrontSway": 2.8,
+    "mechSideSway": 1.6,
+    "mechStepParticles": true,
+    "stepShake": 3,
+    "range": 480,
+    "singleTarget": true,
+    "weapons":
+    [
+        {
+            "name": "monarch-weapon",
+            "x": 31,
+            "y": 1,
+            "top": false,
+            "reload": 40,
+            "alternate": true,
+            "shootY": 0,
+            "recoil": 8,
+            "rotate": true,
+            "rotateSpeed": 0.7,
+            "rotationLimit": 40,
+            "shootSound": "railgun",
+            "ejectEffect": "none",
+            "bullet":
+            {
+                "type": "RailBulletType"
+                "shootEffect": "railShoot",
+                "length": 480,
+                "pointEffectSpace": 35,
+                "pierceEffect": "railHit",
+                "pointEffect": "railTrail",
+                "hitEffect": "massiveExplosion",
+                "smokeEffect": "shootBig2",
+                "hitShake": 3,
+                "pierce": true,
+                "pierceBuilding": true,
+                "pierceCap": 5,
+                "damage": 850,
+                "pierceDamageFactor": 0.1
+            }
+        }
+    ]
+    "immunities": 
+    [
+        "blasted",
+        "yellowdawn-data-overload"
+    ],
+    "abilities":
+    [
+        {
+            "type": "mindustry.entities.abilities.StatusFieldAbility",
+            "effect": "yellowdawn-data-overload",
+            "range": 144,
+            "reload": 180,
+            "duration": 180
+        }
+    ]
+}
