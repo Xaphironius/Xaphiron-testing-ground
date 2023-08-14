@@ -173,7 +173,6 @@
                     ]
                 },
                 "hitSound": "plasmaboom",
-                "parentizeEffects": true,
                 "collidesAir": false,
                 "collides": false,
                 "range": 130,
