@@ -23,7 +23,7 @@
             "name": "delta-missile-battery",
             "x": 8.5,
             "y": -0.5,
-            "top": false,
+            "top": true,
             "mirror": true,
             "layerOffset": -1,
             "recoil": 1,
