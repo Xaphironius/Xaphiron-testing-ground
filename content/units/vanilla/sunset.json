@@ -24,9 +24,13 @@
     "lightRadius": 200,
     "immunities":
     [
-        "blasted"
+        "blasted",
+        "data-overload"
     ],
-    "targetFlag": "reactor",
+    "targetFlags": 
+    [
+        "reactor"
+    ],
     "targetAir": true,
     "fallSpeed": 0.015,
     "crashDamageMultiplier": 7,
