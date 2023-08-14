@@ -34,7 +34,6 @@
     "targetAir": true,
     "fallSpeed": 0.015,
     "crashDamageMultiplier": 7,
-    "commandLimit": 6,
     "weapons":
     [
         {
