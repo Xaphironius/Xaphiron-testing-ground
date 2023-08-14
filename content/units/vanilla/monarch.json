@@ -63,14 +63,4 @@
         "blasted",
         "yellowdawn-data-overload"
     ],
-    "abilities":
-    [
-        {
-            "type": "mindustry.entities.abilities.StatusFieldAbility",
-            "effect": "yellowdawn-data-overload",
-            "range": 144,
-            "reload": 180,
-            "duration": 180
-        }
-    ]
 }
