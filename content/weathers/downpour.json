@@ -13,7 +13,6 @@
     "status": "wet",
     "sound": "downpour"
     "soundVol": 0.75,
-    "force": 0.8,
     "attrs":
     {
         "spores": 1.4,
