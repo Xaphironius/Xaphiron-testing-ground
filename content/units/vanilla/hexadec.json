@@ -151,7 +151,6 @@
                             "strokeFrom": 5,
                             "strokeTo": 0,
                             "interp": "pow3",
-                            "sizeInterp": "pow2Out",
                             "colorFrom": "84F491FF",
                             "colorTo": "84F491FF"
                         },
@@ -178,7 +177,6 @@
                 "collidesAir": false,
                 "collides": false,
                 "range": 130,
-                "ignoreRotation": true,
                 "width": 25,
                 "height": 25,
                 "shrinkX": 0.6,
