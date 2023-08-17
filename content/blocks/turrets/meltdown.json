@@ -1,13 +1,24 @@
 {
-    "drawer": {
+    "drawer": 
+    {
         "type":"drawTurret",
-        "parts": [{
-            "suffix": "-rail",
-            "mirror": true,
-            "x": 7.25,
-            "y": 0,
-            "moveX": 1.75,
-            "moveY": 0
-            }]
+        "parts": 
+        [
+            {
+                "suffix": "-rail",
+                "mirror": true,
+                "x": 7.25,
+                "y": 0,
+                "moveX": 1.75,
+                "moveY": 0,
+                "progress":
+                {
+                    "type": "charge",
+                    "op": "compress",
+                    "start": 0,
+                    "end": 30
+                }
+            }
+        ]
     }
 }
