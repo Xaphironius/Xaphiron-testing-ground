@@ -16,7 +16,7 @@
                     "type": "charge",
                     "op": "compress",
                     "start": 0,
-                    "end": 30
+                    "end": 0.3
                 }
             }
         ]
