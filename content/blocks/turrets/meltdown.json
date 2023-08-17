@@ -13,7 +13,7 @@
                 "moveY": 0,
                 "progress":
                 {
-                    "type": "charge",
+                    "type": "warmup",
                     "op": "compress",
                     "start": 0,
                     "end": 0.3
