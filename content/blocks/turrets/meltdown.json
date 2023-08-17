@@ -1,5 +1,13 @@
 {
     "drawer": {
-        "type":"drawTurret"
+        "type":"drawTurret",
+        "parts": [{
+            "suffix": "-rail",
+            "mirror": true,
+            "x": 7.25,
+            "y": 0,
+            "moveX": 9,
+            "moveY": 0
+            }]
     }
 }
