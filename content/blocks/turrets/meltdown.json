@@ -14,11 +14,7 @@
                 "y": 0,
                 "moveX": 1.5,
                 "moveY": 0,
-                "progress":
-                {
-                    "type": "warmup",
-                    "op": "compress"
-                }
+                "progress": "warmup"
             },
             {
                 "type": "regionPart",
@@ -28,11 +24,7 @@
                 "y": 0,
                 "moveX": -1.5,
                 "moveY": 0,
-                "progress":
-                {
-                    "type": "warmup",
-                    "op": "compress"
-                }
+                "progress": "warmup"
             }
         ]
     }
