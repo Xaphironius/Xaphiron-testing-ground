@@ -9,6 +9,7 @@
             {
                 "type": "regionPart",
                 "name": "yellowdawn-mod-meltdown-railr",
+                "layerOffset": -0.001,
                 "mirror": false,
                 "x": 7.25,
                 "y": 0,
@@ -19,6 +20,7 @@
             {
                 "type": "regionPart",
                 "name": "yellowdawn-mod-meltdown-raill",
+                "layerOffset": -0.001,
                 "mirror": false,
                 "x": -7.25,
                 "y": 0,
