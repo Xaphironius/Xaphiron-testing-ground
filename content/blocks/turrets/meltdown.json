@@ -7,8 +7,10 @@
         "parts": 
         [
             {
-                "suffix": "-rail",
+                "type": "regionPart",
+                "name": "meltdown-rail-r",
                 "mirror": true,
+                "useTurretShading": true,
                 "x": 7.25,
                 "y": 0,
                 "moveX": 1.5,
