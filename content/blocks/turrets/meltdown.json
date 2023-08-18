@@ -8,7 +8,7 @@
         [
             {
                 "type": "regionPart",
-                "name": "meltdown-railr",
+                "name": "yellowdawn-mod-meltdown-railr",
                 "mirror": false,
                 "x": 7.25,
                 "y": 0,
@@ -18,7 +18,7 @@
             },
             {
                 "type": "regionPart",
-                "name": "meltdown-raill",
+                "name": "yellowdawn-mod-meltdown-raill",
                 "mirror": false,
                 "x": -7.25,
                 "y": 0,
