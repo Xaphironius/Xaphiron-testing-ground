@@ -16,9 +16,12 @@
                 "y": 0,
                 "moveX": 1.5,
                 "moveY": 0,
-                "progress": "warmup",
-                "start": 0,
-                "end": 40
+                "progress": 
+                {
+                    "type": "warmup",
+                    "start": 0,
+                    "end": 40
+                }
             },
             {
                 "type": "regionPart",
@@ -30,8 +33,12 @@
                 "y": 0,
                 "moveX": -1.5,
                 "moveY": 0,
-                "start": 0,
-                "end": 40
+                "progress": 
+                {
+                    "type": "warmup",
+                    "start": 0,
+                    "end": 40
+                }
             }
         ]
     }
