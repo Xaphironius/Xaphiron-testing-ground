@@ -3,7 +3,8 @@
     "recoilPow": 0.8,
     "drawer": 
     {
-        "type":"drawTurret",
+        "warmup": 60,
+        "type": "drawTurret",
         "parts": 
         [
             {
@@ -16,7 +17,6 @@
                 "y": 0,
                 "moveX": 1.5,
                 "moveY": 0,
-                "warmup": 60,
                 "progress": 
                 {
                     "type": "warmup",
@@ -33,7 +33,6 @@
                 "y": 0,
                 "moveX": -1.5,
                 "moveY": 0,
-                "warmup": 60,
                 "progress": 
                 {
                     "type": "warmup",
