@@ -30,7 +30,7 @@
                     {
                         "progress":
                         {
-                            "type": "heat",
+                            "type": "life",
                             "x": -8.25,
                             "y": 0,
                             "moveX": 0,
@@ -59,7 +59,7 @@
                     {
                         "progress":
                         {
-                            "type": "heat",
+                            "type": "healife",
                             "x": -8.25,
                             "y": 0,
                             "moveX": 0,
