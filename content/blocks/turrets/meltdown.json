@@ -1,5 +1,5 @@
 {
-    "shootY": 3,
+    "shootY": 5,
     "shootWarmupSpeed": 0.1,
     "recoilPow": 0.8,
     "linearWarmup": false,
@@ -16,14 +16,15 @@
                 "layerOffset": -0.001,
                 "outline": false,
                 "mirror": false,
-                "x": 6.25,
+                "x": 6,
                 "y": 0,
-                "moveX": 1.5,
+                "moveX": 2.25,
                 "moveY": 0,
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow5Out"
+                    "curve": "pow5Out",
+                    "compress": [0, 170]
                 }
             },
             {
@@ -32,14 +33,15 @@
                 "layerOffset": -0.001,
                 "outline": false,
                 "mirror": false,
-                "x": -6.25,
+                "x": -6,
                 "y": 0,
-                "moveX": -1.5,
+                "moveX": -2.25,
                 "moveY": 0,
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow5Out"
+                    "curve": "pow5Out",
+                    "compress": [0, 170]
                 }
             }
         ]
