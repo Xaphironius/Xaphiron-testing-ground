@@ -1,5 +1,5 @@
 {
-    "shootY": 5,
+    "shootY": 6.5,
     "shootWarmupSpeed": 0.1,
     "recoilPow": 0.8,
     "linearWarmup": false,
