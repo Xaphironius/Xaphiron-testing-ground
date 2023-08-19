@@ -1,7 +1,8 @@
 {
-    "shootWarmupSpeed": 60,
+    "shootWarmupSpeed": 0.01,
     "recoilPow": 0.8,
-    "linearwarmup": true,
+    "linearWarmup": true,
+    "minWarmup": 0.9,
     "drawer": 
     {
         "type": "drawTurret",
