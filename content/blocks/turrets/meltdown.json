@@ -23,9 +23,18 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow5Out",
-                    "compress": [0, 170]
-                }
+                    "curve": "pow5Out"
+                },
+                "moves":
+                [
+                    {
+                        "type": "heat",
+                        "x": 8.25,
+                        "y": 0,
+                        "moveX": 0,
+                        "moveY": 0
+                    }
+                ]
             },
             {
                 "type": "regionPart",
@@ -40,9 +49,18 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow5Out",
-                    "compress": [0, 170]
-                }
+                    "curve": "pow5Out"
+                },
+                "moves":
+                [
+                    {
+                        "type": "heat",
+                        "x": -8.25,
+                        "y": 0,
+                        "moveX": 0,
+                        "moveY": 0
+                    }
+                ]
             }
         ]
     }
