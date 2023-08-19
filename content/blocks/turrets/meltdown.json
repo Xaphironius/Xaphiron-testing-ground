@@ -22,7 +22,7 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow2Out"
+                    "curve": "pow5Out"
                 }
             },
             {
@@ -38,7 +38,7 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow2Out"
+                    "curve": "pow5Out"
                 }
             }
         ]
