@@ -1,5 +1,5 @@
 {
-    "shootWarmupSpeed": 40,
+    "shootWarmupSpeed": 60,
     "recoilPow": 0.8,
     "drawer": 
     {
@@ -16,11 +16,11 @@
                 "y": 0,
                 "moveX": 1.5,
                 "moveY": 0,
+                "warmup": 60,
                 "progress": 
                 {
                     "type": "warmup",
-                    "start": 0,
-                    "end": 40
+                    "curve": "2"
                 }
             },
             {
@@ -33,11 +33,11 @@
                 "y": 0,
                 "moveX": -1.5,
                 "moveY": 0,
+                "warmup": 60,
                 "progress": 
                 {
                     "type": "warmup",
-                    "start": 0,
-                    "end": 40
+                    "curve": "2"
                 }
             }
         ]
