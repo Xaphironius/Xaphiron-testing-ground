@@ -1,8 +1,9 @@
 {
+    "shootY": 1.5,
     "shootWarmupSpeed": 0.01,
     "recoilPow": 0.8,
     "linearWarmup": true,
-    "minWarmup": 0.9,
+    "minWarmup": 0.5,
     "drawer": 
     {
         "type": "drawTurret",
@@ -21,7 +22,7 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "2"
+                    "curve": "pow2Out"
                 }
             },
             {
@@ -37,7 +38,7 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "2"
+                    "curve": "pow2Out"
                 }
             }
         ]
