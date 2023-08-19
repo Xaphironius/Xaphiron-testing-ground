@@ -28,11 +28,14 @@
                 "moves":
                 [
                     {
-                        "type": "heat",
-                        "x": 8.25,
-                        "y": 0,
-                        "moveX": 0,
-                        "moveY": 0
+                        "progress":
+                        {
+                            "type": "heat",
+                            "x": -8.25,
+                            "y": 0,
+                            "moveX": 0,
+                            "moveY": 0
+                        }
                     }
                 ]
             },
@@ -54,11 +57,14 @@
                 "moves":
                 [
                     {
-                        "type": "heat",
-                        "x": -8.25,
-                        "y": 0,
-                        "moveX": 0,
-                        "moveY": 0
+                        "progress":
+                        {
+                            "type": "heat",
+                            "x": -8.25,
+                            "y": 0,
+                            "moveX": 0,
+                            "moveY": 0
+                        }
                     }
                 ]
             }
