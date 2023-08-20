@@ -103,8 +103,8 @@
                 outline: false
                 mirror: false
                 x: 12.25
-                y: -4
-                moveX: 1.75
+                y: -3.75
+                moveX: 1
                 moveY: 0
                 progress: 
                 {
@@ -126,7 +126,7 @@
                         }
                     }
                     {
-                        x: 1.75
+                        x: 1
                         progress: 
                         { 
                             type: recoil
@@ -144,8 +144,8 @@
                 outline: false
                 mirror: false
                 x: -12.25
-                y: -4
-                moveX: -1.75
+                y: -3.75
+                moveX: -1
                 moveY: 0
                 progress: 
                 {
@@ -167,7 +167,7 @@
                         }
                     }
                     {
-                        x: -1.75
+                        x: -1
                         progress: 
                         { 
                             type: recoil
