@@ -13,7 +13,7 @@
         type: drawTurret
         parts: 
         [
-            //Region
+            //texture region
             {
                 type: RegionPart
                 name: yellowdawn-mod-meltdown-railr
@@ -140,6 +140,171 @@
             {
                 type: RegionPart
                 name: yellowdawn-mod-meltdown-sideplatel
+                layerOffset: -0.002
+                outline: false
+                mirror: false
+                x: -12
+                y: -3.75
+                moveX: -1
+                moveY: 0
+                progress: 
+                {
+                    type: charge
+                    op: compress
+                    start: 0
+                    end: 1
+                }
+                moves:
+                [
+                    {
+                        y: 0
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                    {
+                        x: -1
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                ]
+            }
+            //outline region
+            {
+                type: RegionPart
+                name: yellowdawn-mod-meltdown-railoutliner
+                layerOffset: -0.001
+                outline: false
+                mirror: false
+                x: 6
+                y: 0
+                moveX: 2.25
+                moveY: 0
+                progress: 
+                {
+                    type: charge
+                    op: compress
+                    start: 0
+                    end: 1
+                }
+                moves:
+                [
+                    {
+                        y: -2.5
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                    {
+                        x: 2.25
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                ]
+            }
+            {
+                type: RegionPart
+                name: yellowdawn-mod-meltdown-railoutlinel
+                layerOffset: -0.001
+                outline: false
+                mirror: false
+                x: -6
+                y: 0
+                moveX: -2.25
+                moveY: 0
+                progress: 
+                {
+                    type: charge
+                    op: compress
+                    start: 0
+                    end: 1
+                }
+                moves:
+                [
+                    {
+                        y: -2.5
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                    {
+                        x: -2.25
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                ]
+            }
+            {
+                type: RegionPart
+                name: yellowdawn-mod-meltdown-sideplateoutliner
+                layerOffset: -0.002
+                outline: false
+                mirror: false
+                x: 12
+                y: -3.75
+                moveX: 1
+                moveY: 0
+                progress: 
+                {
+                    type: charge
+                    op: compress
+                    start: 0
+                    end: 1
+                }
+                moves:
+                [
+                    {
+                        y: 0
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                    {
+                        x: 1
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                ]
+            }
+            {
+                type: RegionPart
+                name: yellowdawn-mod-meltdown-sideplateoutlinel
                 layerOffset: -0.002
                 outline: false
                 mirror: false
