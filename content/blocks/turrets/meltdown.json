@@ -10,6 +10,7 @@
         "parts": 
         [
             {
+                "type": "RegionPart",
                 "name": "yellowdawn-mod-meltdown-railr",
                 "layerOffset": -0.001,
                 "outline": false,
@@ -40,6 +41,7 @@
                 ]
             },
             {
+                "type": "RegionPart",
                 "name": "yellowdawn-mod-meltdown-raill",
                 "layerOffset": -0.001,
                 "outline": false,
