@@ -104,7 +104,7 @@
                 mirror: false
                 x: 12.25
                 y: -3.75
-                moveX: 1.5
+                moveX: 1.25
                 moveY: 0
                 progress: 
                 {
