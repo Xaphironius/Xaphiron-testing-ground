@@ -1,0 +1,106 @@
+{
+    isEnemy: false
+    defaultController: BuilderAI
+    coreUnitDock: true
+    lowAltitude: true
+    flying: true
+    mineSpeed: 9.25
+    mineTier: 3
+    buildSpeed: 1.35
+    drag: 0.05
+    speed: 3.9
+    rotateSpeed: 21
+    faceTarget: false
+    accel: 0.13
+    itemCapacity: 90
+    health: 300
+    armor: 3
+    engineOffset: 7
+    hitSize: 13
+    weapons:
+    [
+        {
+            name: delta-missile-battery
+            x: 8.5
+            y: -0.5
+            top: true
+            mirror: true
+            layerOffset: -1
+            recoil: 1
+            alternate: false
+            baseRotation: -45
+            reload: 35
+            ejectEffect: casing1
+            shootY: 1
+            shootCone: 360
+            shoot:
+            {
+                type: ShootPattern
+                shots: 2
+                shotDelay: 3
+            }
+            shootSound: missile
+            inaccuracy: 3
+            velocityRnd: 0.03
+            bullet:
+            {
+                keepVelocity: true
+                type: MissileBulletType
+                width: 6
+                height: 6
+                trailColor: 7F7F7FFF
+                backColor: F8C27CFF
+                frontColor: FFF8E8FF
+                drag: -0.004
+                homingDelay: 0
+                homingPower: 0.2
+                lifetime: 60
+                speed: 4
+                hitShake: 0.1
+                damage: 4
+                splashDamage: 10
+                splashDamageRadius: 24
+                hitEffect: blastExplosion
+                despawnEffect: blastExplosion
+                weaveScale: 3
+                weaveMag: 4.5
+                buildingDamageMultiplier: 0.03
+            }
+        }
+        {
+            name: small-mount-weapon-1
+            x: 7
+            y: -3
+            top: false
+            mirror: true
+            alternate: true
+            reload: 20
+            recoil: 1
+            ejectEffect: casing1
+            inaccuracy: 1
+            rotate: true
+            shootY: 1
+            shootCone: 360
+            velocityRnd: 0.02
+            shoot:
+            {
+                type: ShootPattern
+                shots: 3
+                shotDelay: 4
+            }
+            bullet:
+            {
+                keepVelocity: true
+                speed: 4
+                damage: 11
+                width: 6
+                height: 11
+                lifetime: 80
+                shootEffect: shootSmall
+                smokeEffect: shootSmallSmoke
+                buildingDamageMultiplier: 0.01
+            }
+            
+        }
+    ]
+}

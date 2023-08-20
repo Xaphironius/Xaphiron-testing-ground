@@ -1,0 +1,20 @@
+{
+    type: CoreBlock
+    health: 8500
+    size: 6
+    thrusterLength: 48
+    itemCapacity: 18000
+    unitCapModifier: 32
+    researchCostMultiplier: 0.15
+    unitType: delta
+    research: core-nucleus
+    requirements:
+    [
+        copper/12000
+        lead/12000
+        silicon/8000
+        thorium/6000
+        surge-alloy/4000
+    ]
+    category: effect
+}

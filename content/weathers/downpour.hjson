@@ -1,0 +1,20 @@
+{
+    type: RainWeather
+    color: 94A8EBFF
+    opacityMultiplier: 0.7
+    sizeMin: 30
+    sizeMax: 80
+    yspeed: 15
+    xspeed: 5
+    density: 200
+    splashTimeScale: 0.20
+    stroke: 0.7
+    status: wet
+    sound: downpour
+    soundVol: 0.75
+    attrs:
+    {
+        spores: 1.4
+        light: -0.7
+    }
+}

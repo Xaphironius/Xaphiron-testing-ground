@@ -1,0 +1,23 @@
+{
+    localizedName: Data Overload
+    reloadMultiplier: 1.35
+    damageMultiplier: 1.2
+    speedMultiplier: 1.3
+    buildSpeedMultiplier: 1.10
+    effectChance: 0.08
+    effect: 
+    {
+        type: ParticleEffect
+        particles: 2
+        region: yellowdawn-diamond
+        interp: smooth
+        sizeInterp: smooth2
+        sizeFrom: 3
+        sizeTo: 0
+        length: 40
+        lifetime: 40
+        colorFrom: ff704cff
+        colorTo: ffc999ff
+        cone: 360
+    }
+}
