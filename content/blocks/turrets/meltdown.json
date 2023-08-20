@@ -4,14 +4,12 @@
     "recoilPow": 0.8,
     "linearWarmup": false,
     "minWarmup": 0.9,
-    "warmupMaintainTime": 170,
     "drawer": 
     {
         "type": "drawTurret",
         "parts": 
         [
             {
-                "type": "regionPart",
                 "name": "yellowdawn-mod-meltdown-railr",
                 "layerOffset": -0.001,
                 "outline": false,
@@ -23,24 +21,21 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow5Out"
+                    "curve": "pow5Out",
+                    "op": "compress",
+                    "start": 0,
+                    "end": 0.40
                 },
                 "moves":
                 [
                     {
-                        "progress":
-                        {
-                            "type": "life",
-                            "x": -8.25,
-                            "y": 0,
-                            "moveX": 0,
-                            "moveY": 0
-                        }
+                        "progress": "smoothReload",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             },
             {
-                "type": "regionPart",
                 "name": "yellowdawn-mod-meltdown-raill",
                 "layerOffset": -0.001,
                 "outline": false,
@@ -52,19 +47,17 @@
                 "progress": 
                 {
                     "type": "warmup",
-                    "curve": "pow5Out"
+                    "curve": "pow5Out",
+                    "op": "compress",
+                    "start": 0,
+                    "end": 0.40
                 },
                 "moves":
                 [
                     {
-                        "progress":
-                        {
-                            "type": "life",
-                            "x": -8.25,
-                            "y": 0,
-                            "moveX": 0,
-                            "moveY": 0
-                        }
+                        "progress": "smoothReload",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
