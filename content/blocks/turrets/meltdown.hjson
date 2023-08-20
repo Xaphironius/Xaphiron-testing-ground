@@ -13,6 +13,7 @@
         type: drawTurret
         parts: 
         [
+            //Region
             {
                 type: RegionPart
                 name: yellowdawn-mod-meltdown-railr
@@ -26,7 +27,6 @@
                 progress: 
                 {
                     type: charge
-                    curve: pow5Out
                     op: compress
                     start: 0
                     end: 1
@@ -38,6 +38,7 @@
                         progress: 
                         { 
                             type: recoil
+                            op: compress
                             start: 0
                             end: 1
                         }
@@ -47,7 +48,6 @@
                         progress: 
                         { 
                             type: recoil
-                            curve: pow5Out
                             op: compress
                             start: 0
                             end: 1
@@ -68,7 +68,6 @@
                 progress: 
                 {
                     type: charge
-                    curve: pow5Out
                     op: compress
                     start: 0
                     end: 1
@@ -80,7 +79,6 @@
                         progress: 
                         { 
                             type: recoil
-                            curve: pow5Out
                             op: compress
                             start: 0
                             end: 1
@@ -91,6 +89,89 @@
                         progress: 
                         { 
                             type: recoil
+                            compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                ]
+            }
+            {
+                type: RegionPart
+                name: yellowdawn-mod-meltdown-sideplater
+                layerOffset: -0.002
+                outline: false
+                mirror: false
+                x: 12.5
+                y: -3.75
+                moveX: 1.75
+                moveY: 0
+                progress: 
+                {
+                    type: charge
+                    op: compress
+                    start: 0
+                    end: 1
+                }
+                moves:
+                [
+                    {
+                        y: 1.75
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                    {
+                        x: 1.75
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                ]
+            }
+            {
+                type: RegionPart
+                name: yellowdawn-mod-meltdown-sideplatel
+                layerOffset: -0.002
+                outline: false
+                mirror: false
+                x: -12.5
+                y: -3.75
+                moveX: -1.75
+                moveY: 0
+                progress: 
+                {
+                    type: charge
+                    op: compress
+                    start: 0
+                    end: 1
+                }
+                moves:
+                [
+                    {
+                        y: -1.75
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 0
+                            end: 1
+                        }
+                    }
+                    {
+                        x: -1.75
+                        progress: 
+                        { 
+                            type: recoil
+                            compress
                             start: 0
                             end: 1
                         }
