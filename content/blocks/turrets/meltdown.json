@@ -47,6 +47,8 @@
                         "progress": 
                         { 
                             "type": "recoil",
+                            "curve": "pow5Out",
+                            "op": "compress",
                             "start": 0,
                             "end": 1
                         }
@@ -78,6 +80,8 @@
                         "progress": 
                         { 
                             "type": "recoil",
+                            "curve": "pow5Out",
+                            "op": "compress",
                             "start": 0,
                             "end": 1
                         }
