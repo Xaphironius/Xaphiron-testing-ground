@@ -182,7 +182,7 @@
             {
                 type: RegionPart
                 name: yellowdawn-mod-meltdown-railoutliner
-                layerOffset: -0.001
+                layerOffset: -0.003
                 outline: false
                 mirror: false
                 x: 6
@@ -223,7 +223,7 @@
             {
                 type: RegionPart
                 name: yellowdawn-mod-meltdown-railoutlinel
-                layerOffset: -0.001
+                layerOffset: -0.003
                 outline: false
                 mirror: false
                 x: -6
@@ -264,7 +264,7 @@
             {
                 type: RegionPart
                 name: yellowdawn-mod-meltdown-sideplateoutliner
-                layerOffset: -0.002
+                layerOffset: -0.003
                 outline: false
                 mirror: false
                 x: 12
@@ -305,7 +305,7 @@
             {
                 type: RegionPart
                 name: yellowdawn-mod-meltdown-sideplateoutlinel
-                layerOffset: -0.002
+                layerOffset: -0.003
                 outline: false
                 mirror: false
                 x: -12
