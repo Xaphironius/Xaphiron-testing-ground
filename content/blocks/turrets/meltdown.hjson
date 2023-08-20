@@ -126,7 +126,7 @@
                         }
                     }
                     {
-                        x: 1.5
+                        x: 1.25
                         progress: 
                         { 
                             type: recoil
@@ -167,7 +167,7 @@
                         }
                     }
                     {
-                        x: -1.5
+                        x: -1.25
                         progress: 
                         { 
                             type: recoil
