@@ -89,7 +89,7 @@
                         progress: 
                         { 
                             type: recoil
-                            compress
+                            op: compress
                             start: 0
                             end: 1
                         }
