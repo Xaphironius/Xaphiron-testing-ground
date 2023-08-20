@@ -53,6 +53,16 @@
                             end: 1
                         }
                     }
+                    {
+                        y: -2.5
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 1
+                            end: 3.30
+                        }
+                    }
                 ]
             }
             {
@@ -92,6 +102,16 @@
                             op: compress
                             start: 0
                             end: 1
+                        }
+                    }
+                    {
+                        y: -2.5
+                        progress: 
+                        { 
+                            type: recoil
+                            op: compress
+                            start: 1
+                            end: 3.30
                         }
                     }
                 ]
