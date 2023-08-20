@@ -102,8 +102,8 @@
                 layerOffset: -0.002
                 outline: false
                 mirror: false
-                x: 12.5
-                y: -3.75
+                x: 12.25
+                y: -4
                 moveX: 1.75
                 moveY: 0
                 progress: 
@@ -116,7 +116,7 @@
                 moves:
                 [
                     {
-                        y: 1.75
+                        y: 0
                         progress: 
                         { 
                             type: recoil
@@ -143,8 +143,8 @@
                 layerOffset: -0.002
                 outline: false
                 mirror: false
-                x: -12.5
-                y: -3.75
+                x: -12.25
+                y: -4
                 moveX: -1.75
                 moveY: 0
                 progress: 
@@ -157,7 +157,7 @@
                 moves:
                 [
                     {
-                        y: -1.75
+                        y: 0
                         progress: 
                         { 
                             type: recoil
