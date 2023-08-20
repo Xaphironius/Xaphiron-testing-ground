@@ -1,4 +1,8 @@
 {
+    "shoot": 
+    {
+        "firstShotDelay": 60
+    },
     "shootY": 6.5,
     "shootWarmupSpeed": 0.1,
     "recoilPow": 0.8,
@@ -25,7 +29,7 @@
                     "curve": "pow5Out",
                     "op": "compress",
                     "start": 0,
-                    "end": 0.40
+                    "end": 1
                 },
                 "moves":
                 [
@@ -34,8 +38,8 @@
                         "progress": 
                         { 
                             "type": "recoil",
-                            "start": 0.40,
-                            "end": 1.80
+                            "start": 1,
+                            "end": 2.80
                         }
                     }
                 ]
@@ -56,7 +60,7 @@
                     "curve": "pow5Out",
                     "op": "compress",
                     "start": 0,
-                    "end": 0.40
+                    "end": 1
                 },
                 "moves":
                 [
@@ -65,8 +69,8 @@
                         "progress": 
                         { 
                             "type": "recoil",
-                            "start": 0.40,
-                            "end": 1.80
+                            "start": 1,
+                            "end": 2.80
                         }
                     }
                 ]
