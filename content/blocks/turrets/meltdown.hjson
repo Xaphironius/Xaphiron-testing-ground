@@ -22,7 +22,7 @@
                 mirror: false
                 x: 6
                 y: 0
-                moveX: 3.5
+                moveX: 3
                 moveY: 0
                 progress: 
                 {
@@ -44,7 +44,7 @@
                         }
                     }
                     {
-                        x: 3.5
+                        x: 3
                         progress: 
                         { 
                             type: recoil
@@ -63,7 +63,7 @@
                 mirror: false
                 x: -6
                 y: 0
-                moveX: -3.5
+                moveX: -3
                 moveY: 0
                 progress: 
                 {
@@ -85,7 +85,7 @@
                         }
                     }
                     {
-                        x: -3.5
+                        x: -3
                         progress: 
                         { 
                             type: recoil
@@ -104,7 +104,7 @@
                 mirror: false
                 x: 12.5
                 y: -3.75
-                moveX: 2.25
+                moveX: 2
                 moveY: 0
                 progress: 
                 {
@@ -126,7 +126,7 @@
                         }
                     }
                     {
-                        x: 2.25
+                        x: 2
                         progress: 
                         { 
                             type: recoil
@@ -145,7 +145,7 @@
                 mirror: false
                 x: -12.5
                 y: -3.75
-                moveX: -2.5
+                moveX: -2
                 moveY: 0
                 progress: 
                 {
@@ -167,7 +167,7 @@
                         }
                     }
                     {
-                        x: -2.5
+                        x: -2
                         progress: 
                         { 
                             type: recoil
@@ -187,7 +187,7 @@
                 mirror: false
                 x: 6
                 y: 0
-                moveX: 3.5
+                moveX: 3
                 moveY: 0
                 progress: 
                 {
@@ -209,7 +209,7 @@
                         }
                     }
                     {
-                        x: 3.5
+                        x: 3
                         progress: 
                         { 
                             type: recoil
@@ -228,7 +228,7 @@
                 mirror: false
                 x: -6
                 y: 0
-                moveX: 3.5
+                moveX: -3
                 moveY: 0
                 progress: 
                 {
@@ -250,7 +250,7 @@
                         }
                     }
                     {
-                        x: -3.5
+                        x: -3
                         progress: 
                         { 
                             type: recoil
@@ -269,7 +269,7 @@
                 mirror: false
                 x: 12.5
                 y: -3.75
-                moveX: 2.5
+                moveX: 2
                 moveY: 0
                 progress: 
                 {
@@ -291,7 +291,7 @@
                         }
                     }
                     {
-                        x: 2.5
+                        x: 2
                         progress: 
                         { 
                             type: recoil
@@ -310,7 +310,7 @@
                 mirror: false
                 x: -12.5
                 y: -3.75
-                moveX: -2.5
+                moveX: -2
                 moveY: 0
                 progress: 
                 {
@@ -332,7 +332,7 @@
                         }
                     }
                     {
-                        x: -2.5
+                        x: -2
                         progress: 
                         { 
                             type: recoil
@@ -342,6 +342,15 @@
                         }
                     }
                 ]
+            }
+            {
+                type: RegionPart
+                name: meltdown-barreloutline
+                layerOffset: 0.003
+                outline: false
+                mirror: false
+                x: 0
+                y: -6
             }
         ]
     }
