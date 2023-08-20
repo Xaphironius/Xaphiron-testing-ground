@@ -20,7 +20,7 @@
                 "moveY": 0,
                 "progress": 
                 {
-                    "type": "warmup",
+                    "type": "charge",
                     "curve": "pow5Out",
                     "op": "compress",
                     "start": 0,
@@ -29,9 +29,13 @@
                 "moves":
                 [
                     {
-                        "progress": "smoothReload",
-                        "x": 0,
-                        "y": 0
+                        "y": 0,
+                        "progress": 
+                        { 
+                            "type": "recoil",
+                            "start": 0.40,
+                            "end": 1.80
+                        }
                     }
                 ]
             },
@@ -46,7 +50,7 @@
                 "moveY": 0,
                 "progress": 
                 {
-                    "type": "warmup",
+                    "type": "charge",
                     "curve": "pow5Out",
                     "op": "compress",
                     "start": 0,
@@ -55,9 +59,13 @@
                 "moves":
                 [
                     {
-                        "progress": "smoothReload",
-                        "x": 0,
-                        "y": 0
+                        "y": 0,
+                        "progress": 
+                        { 
+                            "type": "recoil",
+                            "start": 0.40,
+                            "end": 1.80
+                        }
                     }
                 ]
             }
