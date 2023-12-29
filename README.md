@@ -1,2 +1,1 @@
-# Yellow-Dawn-Expansion-Mod
-thing
+DO NOT INSTALL
