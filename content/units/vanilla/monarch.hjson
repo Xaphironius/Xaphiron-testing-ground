@@ -61,6 +61,5 @@
     immunities: 
     [
         blasted
-        data-overload
     ]
 }
